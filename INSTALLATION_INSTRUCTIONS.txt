@@ -1,6 +1,12 @@
 STEP 0:
 Open Terminal (Mac/Linux) or Command Prompt (Windows)
 
+IMPORTANT:
+If you are using Anaconda/Conda, run this first:
+
+conda deactivate
+
+
 STEP 1:
 Go to the project folder
 
@@ -49,7 +55,7 @@ venv\Scripts\activate
 
 Then run:
 
-python -m uvicorn app.main:app --reload
+python -m uvicorn app.main:app --reload --reload-dir app
 
 Open your browser and go to:
 
@@ -70,4 +76,4 @@ venv\Scripts\activate
 
 Then run:
 
-python -m uvicorn app.main:app --reload
+python -m uvicorn app.main:app --reload --reload-dir app
