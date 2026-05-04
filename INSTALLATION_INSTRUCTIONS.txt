@@ -1,3 +1,27 @@
+PREREQUISITES:
+
+You must have Python installed on your computer.
+
+Check if Python is installed:
+
+python --version
+
+If that does not work, try:
+
+python3 --version
+
+If you see a version (e.g. Python 3.10+), you are good.
+
+If not, install Python:
+https://www.python.org/downloads/
+
+IMPORTANT (Windows):
+During installation, make sure to check:
+"Add Python to PATH"
+
+After installing, restart your terminal and continue.
+
+
 STEP 0:
 Open Terminal (Mac/Linux) or Command Prompt (Windows)
 
@@ -10,10 +34,12 @@ conda deactivate
 STEP 1:
 Go to the project folder
 
-cd path/to/Ceden-App
+cd path/to/project folder
 
 Example:
 cd Desktop/Ceden-App
+OR
+cd Desktop/Ceden-App-main
 
 
 ==============================
