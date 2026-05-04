@@ -1,0 +1,73 @@
+STEP 0:
+Open Terminal (Mac/Linux) or Command Prompt (Windows)
+
+STEP 1:
+Go to the project folder
+
+cd path/to/Ceden-App
+
+Example:
+cd Desktop/Ceden-App
+
+
+==============================
+INSTALL (RUN THIS FIRST)
+==============================
+
+Run this command:
+
+python -m venv venv
+
+Then run:
+
+mac/linux:
+source venv/bin/activate
+
+windows:
+venv\Scripts\activate
+
+Then run:
+
+pip install -r requirements.txt
+
+Then run:
+
+python pipeline/pipeline.py
+
+
+==============================
+RUN APP
+==============================
+
+Activate environment:
+
+mac/linux:
+source venv/bin/activate 
+
+windows:  
+venv\Scripts\activate   
+
+Then run:
+
+python -m uvicorn app.main:app --reload
+
+Open your browser and go to:
+
+http://127.0.0.1:8000/
+
+
+==============================
+IF APP FAILS, RUN AGAIN
+==============================
+
+Activate environment:
+
+mac/linux:
+source venv/bin/activate 
+
+windows:  
+venv\Scripts\activate  
+
+Then run:
+
+python -m uvicorn app.main:app --reload
