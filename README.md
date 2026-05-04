@@ -8,7 +8,7 @@ Interactive data exploration tool for the California Environmental Data Exchange
 
 CEDEN Explorer is a local application designed to explore and analyze a large environmental dataset (~5GB) with a simple, intuitive interface.
 
-It improves upon the standard CEDEN query experience by providing a more user-friendly workflow for selecting stations, exploring results, and working with the data.
+It improves upon the standard CEDEN query tool by providing a more user-friendly workflow for selecting stations, exploring results, and working with the data.
 
 ---
 
