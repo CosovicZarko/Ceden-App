@@ -4,7 +4,10 @@ import zipfile
 import duckdb
 import shutil
 
-DATA_URL = "https://data.ca.gov/dataset/38cb5cca-1500-42e7-b359-e8e3c5d1e087/resource/dea5e450-4196-4a8a-afbb-e5eb89119516/download/tissuedata_parquet_2026-04-14.zip"
+DATA_URL = os.getenv(
+    "CEDEN_DATA_URL",
+    "https://data.ca.gov/dataset/38cb5cca-1500-42e7-b359-e8e3c5d1e087/resource/dea5e450-4196-4a8a-afbb-e5eb89119516/download/tissuedata_parquet_2026-04-14.zip"
+)
 
 TEMP_DIR = "temp"
 DATA_DIR = "data"
