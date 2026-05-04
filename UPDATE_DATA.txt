@@ -18,3 +18,22 @@ STEP 3:
 Run update
 
 python pipeline/pipeline.py
+
+
+IF DOWNLOAD FAILS:
+
+The dataset link may have changed.
+
+1. Go to the dataset website, find the download link (Parquet ZIP file), right click it, and copy the link address.
+
+2. Run:
+
+mac/linux:
+export CEDEN_DATA_URL="PASTE_NEW_LINK_HERE"
+
+windows:
+set CEDEN_DATA_URL=PASTE_NEW_LINK_HERE
+
+3. Then run again:
+
+python pipeline/pipeline.py
